@@ -1,0 +1,608 @@
+<html><head>
+<meta charset='UTF-8'/>
+<meta name="keywords" content="Gelistirilmis Osmanlica Klavye">
+<meta name="description" content="Gelistirilmis Osmanlica Arapça Klavye, Ekran Klavyesi">
+<meta name="Author" content="Suleyman Golbol / www.sglbl.com">
+<meta http-equiv="Content-Language" content="ar-ae">
+<title> Online Arapça Klavye</title>
+<meta http-equiv="Content-Language" content="tr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
+<meta http-equiv="Page-Enter" content="revealTrans(Duration=1.0,Transition=3)">
+<style>
+A:link {
+	COLOR: #330066; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #330066; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #dd0000; TEXT-DECORATION: none
+}
+A.lien:link {
+	COLOR: #0000e6; TEXT-DECORATION: none
+}
+A.lien:visited {
+	COLOR: #0000e6; TEXT-DECORATION: none
+}
+A.lien:hover {
+	COLOR: #dd0000; TEXT-DECORATION: underline
+}
+BODY {
+	BACKGROUND: #ffffff; COLOR: #330066; FONT-FAMILY: Verdana;}
+.ti {
+	FONT-SIZE: 10pt; COLOR: #33cc00; FONT-FAMILY: Comic Sans MS; TEXT-ALIGN: center
+}
+.bt {
+	FONT-SIZE: 16pt; WIDTH: 36px; COLOR: #000000; FONT-FAMILY: Times New Roman
+	}
+.islem {
+	FONT-SIZE: 11px; WIDTH: 75px; FONT-FAMILY: Tahoma
+	}
+.tablo {
+	FONT-SIZE: 8pt;COLOR: #000000; FONT-FAMILY: Arial; border: 1px solid #C0C0C0; background-color: #FFFFFF
+}
+
+.tl {
+	FONT-SIZE: 16pt; COLOR: #009900; FONT-FAMILY: Arial
+}
+.st {
+	FONT-WEIGHT: bolder; COLOR: #9d4098
+}
+.da {
+	COLOR: #0000cc; FONT-FAMILY: Times New Roman
+}
+.cr {
+	COLOR: #cc0033
+}
+.su {
+	COLOR: #d9a4d7
+}
+.bo {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-LEFT-COLOR: #aeaeff; BORDER-BOTTOM-WIDTH: 1px; MARGIN-BOTTOM: 4px; BORDER-BOTTOM-COLOR: #aeaeff; COLOR: #0000d7; BORDER-TOP-COLOR: #aeaeff; FONT-FAMILY: Arial; BACKGROUND-COLOR: #dfdfff; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #aeaeff
+}
+.bo:hover {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-LEFT-COLOR: #aeaeff; BORDER-BOTTOM-WIDTH: 1px; MARGIN-BOTTOM: 4px; BORDER-BOTTOM-COLOR: #aeaeff; COLOR: #dd0000; BORDER-TOP-COLOR: #aeaeff; FONT-FAMILY: Arial; BACKGROUND-COLOR: #eaeaff; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #aeaeff
+}
+.kutu { WIDTH: 560px; HEIGHT: 180px; font-family: Times New Roman; font-size: 18pt }
+
+</style>
+
+<script>
+	var car; 
+function transcrire() {
+car = document.conversion.saisie.value; 
+
+car  = car.replace(/H/g, "ح");
+car  = car.replace(/Z/g, "ظ");
+car  = car.replace(/T/g, "ط");
+car  = car.replace(/İ/g, "ى");
+car  = car.replace(/>/g, "ث");
+car  = car.replace(/½/g, "ة");
+car  = car.replace(/a  /g, "ه ");
+car  = car.replace(/i /g, "ى ");
+car  = car.replace(/ı /g, "ى ");
+car  = car.replace(/ i/g, " اي");
+car  = car.replace(/e /g, "ه ");
+car  = car.replace(/S/g, "ص");
+car = car.replace(/A/g, "آ");
+car = car.replace(/a/g, "ا");
+car  = car.replace(/w/g, "ع");
+car  = car.replace(/ o/g, " او");
+car  = car.replace(/ ö/g, " او");
+car  = car.replace(/ u/g, " او");
+car  = car.replace(/ ü/g, " او");
+car  = car.replace(/</g, "ذ");
+
+car  = car.replace(/b/g, "ب");
+car  = car.replace(/B/g, "ب");
+car  = car.replace(/p/g, "پ");
+car  = car.replace(/P/g, "پ");
+car  = car.replace(/t/g, "ت");
+car  = car.replace(/T/g, "ت");
+car  = car.replace(/c/g, "ج");
+car  = car.replace(/C/g, "ج");
+car  = car.replace(/ç/g, "چ");
+car  = car.replace(/Ç/g, "چ");
+car  = car.replace(/x/g, "خ");
+car  = car.replace(/X/g, "خ");
+car  = car.replace(/d/g, "د");
+car  = car.replace(/D/g, "ض");
+car  = car.replace(/r/g, "ر");
+car  = car.replace(/R/g, "ر");
+car  = car.replace(/z/g, "ز");
+car  = car.replace(/Z/g, "ز");
+car  = car.replace(/j/g, "ژ");
+car  = car.replace(/J/g, "ژ");
+car  = car.replace(/s/g, "س");
+car  = car.replace(/S/g, "س");
+car  = car.replace(/ş/g, "ش");
+car  = car.replace(/Ş/g, "ش");
+car  = car.replace(/f/g, "ف");
+car  = car.replace(/F/g, "ف");
+car  = car.replace(/q/g, "ق");
+car  = car.replace(/Q/g, "ق");
+car  = car.replace(/k/g, "ك");
+car  = car.replace(/K/g, "ك");
+car  = car.replace(/Ğ/g, "ك");
+car  = car.replace(/g/g, "ك");
+car  = car.replace(/l/g, "ل");
+car  = car.replace(/L/g, "ل");
+car  = car.replace(/m/g, "م");
+car  = car.replace(/M/g, "م");
+car  = car.replace(/n/g, "ن");
+car  = car.replace(/N/g, "ن");
+car  = car.replace(/v/g, "و");
+car  = car.replace(/V/g, "و");
+car  = car.replace(/w/g, "و");
+car  = car.replace(/W/g, "و");
+car  = car.replace(/o/g, "و");
+car  = car.replace(/u/g, "و");
+car  = car.replace(/U/g, "و");
+car  = car.replace(/ü/g, "و");
+car  = car.replace(/ö/g, "و");
+car  = car.replace(/O/g, "و");
+car  = car.replace(/Ö/g, "و");
+car  = car.replace(/Ü/g, "و");
+car  = car.replace(/h/g, "ه");
+car  = car.replace(/H/g, "ه");
+car  = car.replace(/e/g, "");
+car  = car.replace(/E/g, "ا");
+car  = car.replace(/,/g, "،");
+car  = car.replace(/;/g, "؛");
+car  = car.replace(/ğ/g, "غ");
+car  = car.replace(/G/g, "غ");
+
+// Trankskripsiyon
+car  = car.replace(/â/g, "آ");
+car  = car.replace(/æ/g, "ث");
+car  = car.replace(/Â/g, "آ");
+car  = car.replace(/å/g, "ث");
+car  = car.replace(/Ó/g, "ح");
+car  = car.replace(/ó/g, "ح");
+car  = car.replace(/Ô/g, "ظ");
+car  = car.replace(/ô/g, "ظ");
+car  = car.replace(/Õ/g, "ذ");
+car  = car.replace(/õ/g, "ذ");
+car  = car.replace(/Ù/g, "ط");
+car  = car.replace(/ù/g, "ط");
+car  = car.replace(/Ú/g, "ق");
+car  = car.replace(/ú/g, "ق");
+car  = car.replace(/Û/g, "و");
+car  = car.replace(/û/g, "و");
+car  = car.replace(/Ò/g, "خ");
+car  = car.replace(/ò/g, "خ");
+car  = car.replace(/á/g, "غ");
+car  = car.replace(/à/g, "غ");
+car  = car.replace(/ä/g, "ص");
+car  = car.replace(/ã/g, "ص");
+car  = car.replace(/ë/g, "ض");
+car  = car.replace(/ê/g, "ض");
+car  = car.replace(/è/g, "ع");
+car  = car.replace(/é/g, "غ");
+car  = car.replace(/ñ/g, "ك");
+car  = car.replace(/'/g, "");
+car  = car.replace(/I/g, "ى");
+car  = car.replace(/À/g, "ا");
+car  = car.replace(/Á/g, "ا");
+car  = car.replace(/Ì/g, "ي");
+car  = car.replace(/Í/g, "ي");
+car  = car.replace(/Ñ/g, "ك");
+car  = car.replace(/ß/g, "و");
+
+
+// Y harfi
+car  = car.replace(/ı/g, "ي");
+car  = car.replace(/i/g, "ي");
+car  = car.replace(/y/g, "ي");
+car  = car.replace(/Y/g, "ي");
+car  = car.replace(/î/g, "ي");
+
+// Digerleri
+
+car  = car.replace(/ت'/g, "ث");
+car  = car.replace(/وء/g, "ؤ");
+car  = car.replace(/يء/g, "ئ");
+car  = car.replace(/ءا/g, "أ");
+car  = car.replace(/"/g, "ع");
+car  = car.replace(/س'/g, "ش");
+car  = car.replace(/غ'/g, "غ");
+car  = car.replace(/ص'/g, "ض");
+car  = car.replace(/ط'/g, "ظ");
+car  = car.replace(/د'/g, "ذ");
+car  = car.replace(/ح'/g, "خ");
+car  = car.replace(/ر'/g, "ز");
+car  = car.replace(/ه'/g, "ة");
+car  = car.replace(/وو/g, "و");
+
+car  = car.replace(/0/g, "۰");
+car  = car.replace(/1/g, "۱");
+car  = car.replace(/2/g, "۲");
+car  = car.replace(/3/g, "۳");
+car  = car.replace(/4/g, "۴");
+car  = car.replace(/5/g, "۵");
+car  = car.replace(/6/g, "۶");
+car  = car.replace(/7/g, "۷");
+car  = car.replace(/8/g, "۸");
+car  = car.replace(/9/g, "۹");
+
+// ع å Ó ó Ô ô Õ õ Ù ù Ú  ú Û û Ò ò á  à  ä ã ë  ê è é
+document.conversion.saisie.value=car;
+var obj=document.conversion.saisie;
+obj.focus();
+obj.scrollTop=obj.scrollHeight;
+}
+function OSMANLICA(unicode) {
+var myForm = document.conversion.saisie;
+  if (document.selection) {
+myForm.focus();
+sel = document.selection.createRange();
+sel.text = String.fromCharCode(unicode);
+document.conversion.focus();
+}
+else if (document.conversion.saisie.selectionStart || document.conversion.saisie.selectionStart == "0") {
+ var startPos = document.conversion.saisie.selectionStart;
+var endPos = document.conversion.saisie.selectionEnd;
+ var chaine = document.conversion.saisie.value;
+myForm.value = chaine.substring(0, startPos) + String.fromCharCode(unicode) + chaine.substring(endPos, chaine.length);
+} else {
+ myForm.value += String.fromCharCode(unicode);
+}
+var obj=document.conversion.saisie;
+obj.focus();
+obj.scrollTop=obj.scrollHeight;
+ }
+function copy()
+{ textRange=document.conversion.saisie.createTextRange();   textRange.execCommand("Copy");   textRange="";
+}
+</script>
+
+</head>
+<body style="background-color: #EEEEEE" class="vsc-initialized">
+<div align="center">
+
+<br>
+<br>
+<br>
+<table border="0" cellspacing="3" style="border-collapse: collapse; border-width:1; border-style:solid; padding:0; " cellpadding="3" bgcolor="#F3F3F3" bordercolor="silver" width="728">
+	<tbody><tr>
+		<td><span lang="tr"><div align="center">
+<form align="center" name="conversion">
+	<p align="center"><b><span style="font-size: 25pt">
+	</span><font face="Trebuchet MS" size="5" color="#000000"><br>
+	ONLINE ARAPÇA KLAVYE </font></b></p><p style="padding-left:15px">
+  <textarea id="area" dir="rtl" onkeyup="transcrire()" name="saisie" class="kutu" style="float: left" rows="6" cols="57"></textarea><input id="Button2" class="islem" onclick="document.conversion.saisie.value =document.conversion.saisie.innerText.substr(0,document.conversion.saisie.innerText.length-1); document.conversion.saisie.focus();" type="button" value="Harf Sil" name="Button2"></p>
+	<p>
+  <input class="islem" onclick="reset();conversion.saisie.focus()" type="button" value="Temizle"></p>
+	<p>
+  <input class="islem" onclick="conversion.saisie.select();copy()" type="button" value="Kopyala"></p>
+	<p> 
+	<input class="islem" onclick="OSMANLICA(0040)" type="button" value="Boşluk"></p>
+	<p> 
+	<br>	<br><br><table align="center" border="0" class="tablo" width="697">
+		<tbody><tr>
+			<td align="center" colspan="16"><font style="font-size: 9pt"><b>
+			Standart Karakterler</b></font></td>
+			</tr>
+		<tr>
+			<td align="center">
+    <span lang="tr"><input class="bt" onclick="OSMANLICA(1588)" type="button" value="ش" title="ş"></span></td>
+			<td align="center">
+	<span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1587)" type="button" value="س" title="s"></span></td>
+			<td align="center">
+	<span lang="tr">
+	<input class="bt" onclick="OSMANLICA(1688)" type="button" value="ژ" title="j"></span></td>
+			<td align="center"><span lang="tr">
+	<input class="bt" onclick="OSMANLICA(1586)" type="button" value="ز" title="z"></span></td>
+			<td align="center">
+    <span lang="tr"><input class="bt" onclick="OSMANLICA(1585)" type="button" value="ر" title="r"></span></td>
+			<td align="center"><span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1584)" type="button" value="ذ" title="<"></span></td>
+			<td align="center"><span lang="tr"><input class="bt" onclick="OSMANLICA(1583)" type="button" value="د" title="d"></span></td>
+			<td align="center"><span lang="tr"><input class="bt" onclick="OSMANLICA(1582)" type="button" value="خ" title="x"></span></td>
+			<td align="center">
+		<span lang="tr"><input class="bt" onclick="OSMANLICA(1581)" type="button" value="ح" title="H"></span></td>
+			<td align="center"><span lang="tr">
+		<input class="bt" onclick="OSMANLICA(1670)" type="button" value="چ" title="ç"></span></td>
+			<td align="center"><span lang="tr"><input class="bt" onclick="OSMANLICA(1580)" type="button" value="ج" title="c"></span></td>
+			<td align="center"><span lang="tr"><input class="bt" onclick="OSMANLICA(1579)" type="button" value="ث" title=">"></span></td>
+			<td align="center">
+	<span lang="tr"><input class="bt" onclick="OSMANLICA(1578)" type="button" value="ت" title="t"></span></td>
+			<td align="center"><span lang="tr">
+	<input class="bt" onclick="OSMANLICA(1662)" type="button" value="پ" title="p"></span></td>
+			<td align="center"><span lang="tr"><input class="bt" onclick="OSMANLICA(1576)" type="button" value="ب" title="b"></span></td>
+			<td align="center">
+    <span lang="tr"><input class="bt" onclick="OSMANLICA(1575)" type="button" value="ا" title="a, medli elif için A"></span></td>
+		</tr>
+		<tr>
+			<td align="center">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1609)" type="button" value="ى" title="y"></span></td>
+			<td align="center">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(65275)" type="button" value="ﻻ" title="la"></span></td>
+			<td align="center">
+    <span lang="tr"><input class="bt" onclick="OSMANLICA(1607)" type="button" value="ه" title="h"></span></td>
+			<td align="center">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1608)" type="button" value="و" title="v, o, ö, u, ü"></span></td>
+			<td align="center">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1606)" type="button" value="ن" title="n"></span></td>
+			<td align="center"><span lang="tr"><input class="bt" onclick="OSMANLICA(1605)" type="button" value="م" title="m"></span></td>
+			<td align="center"><span lang="tr"><input class="bt" onclick="OSMANLICA(1604)" type="button" value="ل" title="l"></span></td>
+			<td align="center"><span lang="tr"><input class="bt" onclick="OSMANLICA(1603)" type="button" value="ك" title="k"></span></td>
+			<td align="center"><span lang="tr"><input class="bt" onclick="OSMANLICA(1602)" type="button" value="ق" title="q"></span></td>
+			<td align="center">
+    <span lang="tr"><input class="bt" onclick="OSMANLICA(1601)" type="button" value="ف" title="f"></span></td>
+			<td align="center"><span lang="tr"><input class="bt" onclick="OSMANLICA(1594)" type="button" value="غ" title="ğ, G"></span></td>
+			<td align="center">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1593)" type="button" value="ع" title="w"></span></td>
+			<td align="center">
+    <span lang="tr"><input class="bt" onclick="OSMANLICA(1592)" type="button" value="ظ" title="Z"></span></td>
+			<td align="center"><span lang="tr"><input class="bt" onclick="OSMANLICA(1591)" type="button" value="ط" title="T"></span></td>
+			<td align="center">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1590)" type="button" value="ض" title="D"></span></td>
+			<td align="center"><span lang="tr"><input class="bt" onclick="OSMANLICA(1589)" type="button" value="ص" title="S"></span></td>
+		</tr>
+		<tr>
+			<td align="center" colspan="16">
+    <font style="font-size: 9pt"><b>Genişletilmiş Karakterler</b></font></td>
+			</tr>
+		<tr>
+			<td align="center">
+    &nbsp;</td>
+			<td align="center">
+    &nbsp;</td>
+			<td align="center">
+    &nbsp;</td>
+			<td align="center">
+    <span lang="tr">
+	<input class="bt" onclick="OSMANLICA(1647)" type="button" value="ٯ"></span></td>
+			<td align="center">
+    <span lang="tr">
+	<input class="bt" onclick="OSMANLICA(1577)" type="button" value="ة" title="½"></span></td>
+			<td align="center">
+    <span lang="tr">
+	<input class="bt" onclick="OSMANLICA(1574)" type="button" value="ئ"></span></td>
+			<td align="center">
+    <span lang="tr">
+	<input class="bt" onclick="OSMANLICA(1610)" type="button" value="ي"></span></td>
+			
+			<td align="center">
+    <span lang="tr">
+	<input class="bt" onclick="OSMANLICA(1728)" type="button" value="ۀ"></span></td>
+			<td align="center">
+    <span lang="tr">
+			<input class="bt" onclick="OSMANLICA(1711)" type="button" value="گ"></span></td>
+			<td align="center">
+    <span lang="tr">
+			<input class="bt" onclick="OSMANLICA(1709)" type="button" value="ڭ"></span></td>
+			<td align="center">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1573)" type="button" value="إ"></span></td>
+			<td align="center">
+    <span lang="tr">
+			<input class="bt" onclick="OSMANLICA(1571)" type="button" value="أ"></span></td>
+			<td align="center">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1570)" type="button" value="آ"></span></td>
+			<td align="center">
+    &nbsp;</td>
+    <td align="center">
+    &nbsp;</td>
+    <td align="center">
+    &nbsp;</td>
+		</tr>
+
+		<tr>
+			<td align="center" colspan="16">
+    <span lang="tr">
+	<div align="center">
+<table id="table5" class="tablo" style="border-width: 0">
+  <tbody><tr>
+    <td colspan="10">
+    <p align="center"><b>Rakamlar</b><span lang="tr"><b> </b>
+</span></p></td>
+    </tr>
+  <tr>
+    <td>
+    <input class="bt" onclick="OSMANLICA(1776)" type="button" value="۰"></td>
+    <td>
+    <input class="bt" onclick="OSMANLICA(1777)" type="button" value="۱"></td>
+    <td>
+    <input class="bt" onclick="OSMANLICA(1778)" type="button" value="۲"></td>
+    <td>
+    <input class="bt" onclick="OSMANLICA(1779)" type="button" value="۳"></td>
+    <td>
+    <input class="bt" onclick="OSMANLICA(1636)" type="button" value="٤"></td>
+    
+    <td>
+    <input class="bt" onclick="OSMANLICA(1637)" type="button" value="٥"></td>
+    <td>
+    <input class="bt" onclick="OSMANLICA(1638)" type="button" value="٦"></td>
+    <td>
+    <input class="bt" onclick="OSMANLICA(1639)" type="button" value="٧"></td>
+    <td>
+    <input class="bt" onclick="OSMANLICA(1640)" type="button" value="٨"></td>
+    <td>
+    <input class="bt" onclick="OSMANLICA(1641)" type="button" value="٩"></td>
+	</tr>
+	</tbody></table>
+		<div align="center">
+<table id="table6" class="tablo" style="border-width: 0">
+  <tbody><tr>
+    <td colspan="10">
+    <p align="center"><font style="font-size: 9pt"><b>Harekeler</b></font><span lang="tr"><b><font style="font-size: 9pt">
+	</font></b>
+</span></p></td>
+    </tr>
+  <tr>
+    <td>
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1614)" type="button" value="&nbsp;َ"></span></td>
+    <td>
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1611)" type="button" value="&nbsp;ً"></span></td>
+    <td>
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1616)" type="button" value="&nbsp;ِ"></span></td>
+    <td>
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1613)" type="button" value="&nbsp;ٍ"></span></td>
+       <td>
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1615)" type="button" value="&nbsp;ُ"></span></td>
+        
+    <td>
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1617)" type="button" value="&nbsp;ّ"></span></td>
+    <td>
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1618)" type="button" value="&nbsp;ْ"></span></td>
+    <td>
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1612)" type="button" value="&nbsp;ٌ"></span></td>
+    <td>
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1620)" type="button" value="ٔ"></span></td>
+    <td>
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1569)" type="button" value="ء"></span></td>
+	<td>
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1648)" type="button" value="&nbsp;ٰ"></span></td>
+	</tr>
+	</tbody></table>
+			<div align="center">
+<table id="table7" class="tablo" style="border-width: 0" width="300">
+  <tbody><tr>
+    <td colspan="16">
+    <p align="center"><font style="font-size: 9pt"><b>Simgeler</b></font></p></td>
+    </tr>
+  <tr>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(39)" type="button" value="'"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(24)" type="button" value="&quot;"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(93)" type="button" value="["></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(91)" type="button" value="]"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(40)" type="button" value="( "></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(41)" type="button" value=")"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(123)" type="button" value="{"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(125)" type="button" value="}"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(62)" type="button" value="<" _=""></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(60)" type="button" value=">"></span></td>
+    <td align="center" width="36">
+    <span lang="tr"><input class="bt" onclick="OSMANLICA(151)" type="button" value="|"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(33)" type="button" value="!"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1567)" type="button" value="؟"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(95)" type="button" value="_;"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(1644)" type="button" value="٬"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(46)" type="button" value="."></span></td>
+	</tr>
+	
+  <tr>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(37)" type="button" value="%"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(35)" type="button" value="#"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(36)" type="button" value="$"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(128)" type="button" value="€"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(64)" type="button" value="@"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(96)" type="button" value="`"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(95)" type="button" value="_"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(126)" type="button" value="~"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(61)" type="button" value="="></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(58)" type="button" value=":"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(47)" type="button" value="/"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(42)" type="button" value="*"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(45)" type="button" value="-"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(43)" type="button" value="+"></span></td>
+    <td align="center" width="36">
+    <span lang="tr"><input class="bt" onclick="OSMANLICA(38)" type="button" value="&amp;"></span></td>
+    <td align="center" width="36">
+    <span lang="tr">
+    <input class="bt" onclick="OSMANLICA(8204)" type="button" value=""></span></td>
+    </tr>
+  </tbody></table>
+
+			</div>
+		</div>
+	</div>
+</span></td>
+
+
+
+		</tr>
+	</tbody></table>
+
+</p></form>
+</div>
+</span></td>
+	</tr>
+</tbody></table>
+
+</div>
+<br>
+<div align="center">
+<table border="0" cellspacing="3" style="border-collapse: collapse; border-width:1; border-style:solid; padding:0; " cellpadding="3" bgcolor="#F3F3F3" bordercolor="silver" width="728" id="table13">
+	</table>
+
+</div>
