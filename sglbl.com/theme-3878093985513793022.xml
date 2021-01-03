@@ -1850,7 +1850,7 @@ Share: <a expr:href='&quot;https://www.facebook.com/share.php?v=4&amp;src=bm&amp
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <div class='readmore'>
-<a expr:href='data:post.url'>Read More</a>
+<a expr:href='data:post.url'>Devamını Oku</a>
 </div>
 </b:if>
 </b:if>
@@ -1927,7 +1927,7 @@ thumbnailSize: 100,
 noImage: &quot;https://1.bp.blogspot.com/-95bRlZ_Ka6Y/V5Yk2zPdxEI/AAAAAAAAA8c/OiOupTcbC9E/s000/no_image.jpg&quot;,
 containerId: &quot;bpostrelated-post&quot;,
 newTabLink: false,
-moreText: &quot;Read More&quot;,
+moreText: &quot;Devamını Oku&quot;,
 widgetStyle: 3,
 callBack: function() {}
 };
@@ -2617,15 +2617,11 @@ window.goog.comments.loadQueue.push(render);
 <div id='footer'>   
 <div id='copyrights'>
 Copyright &#169; <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>
-</div>
-<!-- you don't have permission to remove or change these  -->     
+</div>    
 <div id='credits'>Design by Sglbl</div>      
 </div><!-- #footer -->
 </div>
 <div style='clear:both;'/>
 
 </body>
-</html><!-- Template processed by BTemplates.com on 25-07-2016 14:40.
-Log: Images uploaded to Picasa, fluidvids.js' code was embedded in the template, HTML menu converted to Pages widget menu
-Template URI: https://btemplates.com/2016/blogger-template-greatmag/
--->
+</html>
