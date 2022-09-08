@@ -25,53 +25,53 @@ a{
 }
 /* section 1 */
 .section-1{
-    padding-top: 30vh;
+    padding-top: 40vh;
     text-align: center;
 }
 
 .section-1 p{
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     padding-bottom: 10px;
     margin:0;
 }
 
 .section-1 h2{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: 10px;
 }
 
 .section-1 a{
-    font-size: 0.9rem;
-    padding: 10px;
+    font-size: 3.9rem;
+    padding: 15px;
 }
 /* section 2 */
 .section-2{
-    padding-top: 10vh;
-    width: 10%;
+    padding-left: 5vh;
+    padding-top: 18vh;
+    width: 70%;
 }
 
 .section-2 h2{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: 10px;
 }
 
 .section-2 p{
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     padding-bottom: 10px;
     margin:0;
-    width: 340px;
 }
 
 .section-2 a{
     display: block;
-    padding: 5px;
-    font-size: 0.9rem;
+    padding: 4px;
+    font-size: 1.2rem;
     padding-left: 0;
-    width: 340px;
+    width: 150px;
 }
 /* animations / utilities */
 .section-2 a:hover{
-    font-size: 1.0rem;
+    font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
     transition: 0.2s;
@@ -80,7 +80,7 @@ a{
 .section-1 a:hover{
     color: #fff;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .white:hover{
