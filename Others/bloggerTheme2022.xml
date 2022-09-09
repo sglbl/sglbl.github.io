@@ -8,7 +8,6 @@
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
 <link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
 <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet'/>
-<!-- Start www.bloggertipandtrick.net: Changing the Blogger Title Tag  -->
 <b:if cond='data:blog.pageType == &quot;index&quot;'>
 <title><data:blog.pageTitle/></title> 
 <b:else/>
@@ -304,7 +303,8 @@ body{-webkit-box-shadow:inset 0 250px 0 0 #1B1B1B;-moz-box-shadow:inset 0 250px 
 #sidebar-wrapper { width: 100%; padding: 0 0 20px 0; margin: 0px; float: none; }
 #lsidebar-wrapper { width: 100%; padding: 0 0 20px 0; margin: 0px; float: none; }
 #rsidebar-wrapper { width: 100%; padding: 0 0 20px 0; margin: 0px; float: none; }
-.menu-primary-container, .menu-secondary-container {float: none;margin-left: 0;margin-right: 0;display: none;}
+.menu-primary-container {float: none;margin-left: 0;margin-right: 0; padding-bottom:4em; display: block !important;}
+.menu-secondary-container {float: none;margin-left: 0;margin-right: 0;display: none;}
 .menu-primary-responsive-container, .menu-secondary-responsive-container {display: block;}
 #top-social-profiles{float:none;width:100%;display:block;text-align:center;height:auto;}
 #topsearch {float:none;margin:10px 10px 0px 10px;padding: 0;}
@@ -952,13 +952,13 @@ function createSummaryAndThumb(pID){
 <b:section class='pagelistmenusblog' id='pagelistmenusblog' maxwidgets='1' showaddelement='no'>
   <b:widget id='Header1' locked='false' title='Süleyman Gölbol Blog Sitesi (Üstbilgi)' type='Header' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='displayUrl'/>
-      <b:widget-setting name='displayHeight'>0</b:widget-setting>
+      <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEgd9WJHeLmZcHTciJ_h_LuTMEwnwHFcAcmkuvjZIvx8cWFbjPKuF2y_ru-JgyGGuXjmLURX4b3NFIdkc_JDzlqL2ol60hQJZg17O_Lpwl-ZYa1anCeBVOxEExnIrlXjl4Z5KFulMHfRqb0p0XaaX_bF2z87BxVtDQLrIY8eLi0109rIBpCTxMmP3_HV=s251</b:widget-setting>
+      <b:widget-setting name='displayHeight'>107</b:widget-setting>
       <b:widget-setting name='sectionWidth'>150</b:widget-setting>
-      <b:widget-setting name='useImage'>false</b:widget-setting>
+      <b:widget-setting name='useImage'>true</b:widget-setting>
       <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-      <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
-      <b:widget-setting name='displayWidth'>0</b:widget-setting>
+      <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
+      <b:widget-setting name='displayWidth'>251</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 
@@ -1778,7 +1778,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
 <a expr:name='data:post.id'/>
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <div class='breadcrumb-bwrap'>
-<a expr:href='data:blog.homepageUrl'>Home</a> &#187;
+<a expr:href='data:blog.homepageUrl'>Ana Sayfa</a> &#187;
 <b:if cond='data:post.labels'><b:loop values='data:post.labels' var='label'>
 <a expr:href='data:label.url' rel='tag'><data:label.name/></a>
 <b:if cond='data:label.isLast != &quot;true&quot;'> , </b:if>
