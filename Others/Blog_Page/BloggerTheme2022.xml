@@ -287,7 +287,7 @@ div.span-1,div.span-2,div.span-3,div.span-4,div.span-5,div.span-6,div.span-7,div
 .menu-primary-container{z-index:10 !important;}
 .menu-secondary-container{z-index:9 !important;}
 embed, img, object, video {max-width: 100%;}
-.menu-primary-responsive-container, .menu-secondary-responsive-container  {display: none;margin: 10px;}
+.menu-primary-responsive-container, .menu-secondary-responsive-container  {display: none;margin: 25px;}
 .menu-primary-responsive, .menu-secondary-responsive  {width: 100%;padding: 5px;border: 1px solid #ddd;}
 @media only screen and (max-width: 976px) {
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
@@ -303,7 +303,7 @@ body{-webkit-box-shadow:inset 0 250px 0 0 #1B1B1B;-moz-box-shadow:inset 0 250px 
 #sidebar-wrapper { width: 100%; padding: 0 0 20px 0; margin: 0px; float: none; }
 #lsidebar-wrapper { width: 100%; padding: 0 0 20px 0; margin: 0px; float: none; }
 #rsidebar-wrapper { width: 100%; padding: 0 0 20px 0; margin: 0px; float: none; }
-.menu-primary-container {float: none;margin-left: 0;margin-right: 0; padding-bottom:4em; display: block !important;}
+.menu-primary-container {float: none;margin-left: 0;margin-right: 0; padding-bottom:5em; display: block !important;}
 .menu-secondary-container {float: none;margin-left: 0;margin-right: 0;display: none;}
 .menu-primary-responsive-container, .menu-secondary-responsive-container {display: block;}
 #top-social-profiles{float:none;width:100%;display:block;text-align:center;height:auto;}
@@ -939,13 +939,13 @@ function createSummaryAndThumb(pID){
 <b:section class='pagelistmenusblog' id='pagelistmenusblog' maxwidgets='1' showaddelement='no'>
   <b:widget id='Header1' locked='false' title='Süleyman Gölbol Blog Sitesi (Üstbilgi)' type='Header' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEgd9WJHeLmZcHTciJ_h_LuTMEwnwHFcAcmkuvjZIvx8cWFbjPKuF2y_ru-JgyGGuXjmLURX4b3NFIdkc_JDzlqL2ol60hQJZg17O_Lpwl-ZYa1anCeBVOxEExnIrlXjl4Z5KFulMHfRqb0p0XaaX_bF2z87BxVtDQLrIY8eLi0109rIBpCTxMmP3_HV=s251</b:widget-setting>
-      <b:widget-setting name='displayHeight'>107</b:widget-setting>
+      <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEhFoKAw9HFbLURx9YIMao8ONNnzN5U-4E-Y9EzImAAKgwOHuVrIpmxr7tTAKakvDJyj-CPM2xkZWjNQPCxQPb113mwv8sw2sD18xl_2ZthbTtRFXVBWo3dRMvGAdeL5dkocKR23AKK3EG6efPnGxqknGagOe9-QnSbgRkJt8pH2zRM_rMad6RfCXuhu=s322</b:widget-setting>
+      <b:widget-setting name='displayHeight'>135</b:widget-setting>
       <b:widget-setting name='sectionWidth'>150</b:widget-setting>
       <b:widget-setting name='useImage'>true</b:widget-setting>
       <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
       <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
-      <b:widget-setting name='displayWidth'>251</b:widget-setting>
+      <b:widget-setting name='displayWidth'>322</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 
