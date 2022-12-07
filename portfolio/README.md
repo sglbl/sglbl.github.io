@@ -6,37 +6,26 @@
 > Click on the names of projects for more detail.
 
 ### [Stereo Correspondence For Disparity](../Stereo-Correspondence-For-Disparity)
-<br>
 
 ### [Homography Estimation By Warping Perspective](../Homography-Estimation)
-<br>
 
 ### [Object Detection Based On Feature Detectors and Descriptors](../Object-Detection)
-<br>
 
 ### [Vector Graphics with EPS](../Vector-Graphics-with-EPS)
-<br>
 
 ### [Basic Hex Game for Android](../Hex-Game-for-Android)
-<br>
 
 ### [Basic Hex Game for PC](../Hex-Game-for-PC)
-<br>
 
 ### [Screenshot Saver for Pardus OS](../Cizdirgec_PardusAcikHack)
-<br>
 
 ### [Abroad Guide for Students](../Abroad-Guide-for-Students)
-<br>
 
 ### [Sierpinski Triangle with Parallel Processing](../Sierpinski-Triangle)
-<br>
 
-### [Process Executer with Pooled Servers and Clients Using Same File System](https://github.com/sglbl/CSE-344/tree/master/midterm)
-<br>
+### [Vector Graphics with EPS](../Vector-Graphics-with-EPS)
 
-### [Vector Graphics with EPS](https://github.com/sglbl/CSE-211/tree/main/HW4)
-<br>
+### [Process Executer with Pooled Servers and Clients Using Same File System](../Process-Executer-with-Pooled-Servers-and-Clients-Using-Same-File-System)
 
 ***
 ## School Assignments
@@ -60,7 +49,7 @@ System Programming
 ### [CSE-463](https://sglbl.github.io/CSE-463)
 Computer Vision
 
-### [CSE-211 ](https://sglbl.github.io/CSE-211)
+### [CSE-211](https://sglbl.github.io/CSE-211)
 Discrete Mathematics Using Programming
 
 ### [MATH-118](https://sglbl.github.io/CSE-118)
