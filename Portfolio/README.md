@@ -22,8 +22,6 @@
 
 ### [Sierpinski Triangle with Parallel Processing](../Sierpinski-Triangle)
 
-### [Vector Graphics with EPS](../Vector-Graphics-with-EPS)
-
 ### [Process Executer with Pooled Servers and Clients Using Same File System](../Process-Executer-with-Pooled-Servers-and-Clients-Using-Same-File-System)
 
 ***
@@ -51,5 +49,5 @@ Computer Vision
 ### [CSE-211](https://sglbl.github.io/CSE-211)
 Discrete Mathematics Using Programming
 
-### [MATH-118](https://sglbl.github.io/CSE-118)
+### [MATH-118](https://sglbl.github.io/Math-118)
 Probability And Statictics Using Programming
