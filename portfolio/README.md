@@ -1,5 +1,4 @@
-# PROJECT PORTFOLIO
-## Süleyman's Project Portfolio Page
+# Süleyman's Project Portfolio Page
 
 ***
 ## Github Projects
