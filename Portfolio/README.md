@@ -22,6 +22,8 @@
 
 ### [Sierpinski Triangle with Parallel Processing](../Sierpinski-Triangle)
 
+### [Binary Text Classification for Sentiment Analysis](../Binary-Classification-for-Sentiment-Analysis)
+
 ### [Process Executer with Pooled Servers and Clients Using Same File System](../Process-Executer-with-Pooled-Servers-and-Clients-Using-Same-File-System)
 
 ***
