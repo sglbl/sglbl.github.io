@@ -16,13 +16,17 @@
 
 ### [Basic Hex Game for PC](../Hex-Game-for-PC)
 
-### [Screenshot Saver for Pardus OS](../Cizdirgec_PardusAcikHack)
+### [Binary Text Classification for Sentiment Analysis](../Binary-Classification-for-Sentiment-Analysis)
 
 ### [Abroad Guide for Students](../Abroad-Guide-for-Students)
 
-### [Sierpinski Triangle with Parallel Processing](../Sierpinski-Triangle)
+### [Age Prediction](../Age-Prediction)
 
-### [Binary Text Classification for Sentiment Analysis](../Binary-Classification-for-Sentiment-Analysis)
+### [Sparkle Symmetric Cryptographic Algorithm](../CSE-470/tree/main/Project)
+
+### [Screenshot Saver for Pardus OS](../Cizdirgec_PardusAcikHack)
+
+### [Sierpinski Triangle with Parallel Processing](../Sierpinski-Triangle)
 
 ### [Process Executer with Pooled Servers and Clients Using Same File System](../Process-Executer-with-Pooled-Servers-and-Clients-Using-Same-File-System)
 
@@ -42,11 +46,23 @@ Object Oriented Programming in C++
 ### [CSE-222](https://sglbl.github.io/CSE-222)
 Data Structures And Algorithms in Java
 
+### [CSE-321](https://sglbl.github.io/CSE-321)
+Algorithm Design in Python
+
+### [CSE-331](https://sglbl.github.io/CSE-331)
+Computer Organization in MIPS Assembly / Verilog
+<!-- 
+### [CSE-312](https://sglbl.github.io/CSE-312)
+Operating Systems
+ -->
 ### [CSE-344](https://sglbl.github.io/CSE-344)
 System Programming
 
 ### [CSE-463](https://sglbl.github.io/CSE-463)
 Computer Vision
+
+### [CSE-470](https://sglbl.github.io/CSE-470)
+Cryptography and Computer Security
 
 ### [CSE-211](https://sglbl.github.io/CSE-211)
 Discrete Mathematics Using Programming
