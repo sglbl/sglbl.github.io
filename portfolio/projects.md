@@ -22,7 +22,7 @@
 
 ### [Age Prediction](../Age-Prediction)
 
-### [Sparkle Symmetric Cryptographic Algorithm](../CSE-470/tree/main/Project)
+### [Sparkle Symmetric Cryptographic Algorithm](../CSE-470/Project)
 
 ### [Screenshot Saver for Pardus OS](../Cizdirgec_PardusAcikHack)
 
