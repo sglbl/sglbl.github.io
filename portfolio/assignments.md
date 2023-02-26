@@ -1,5 +1,5 @@
 ## School Assignments
-> Click on the names of projects for more detail.
+> Click on the course codes for more detail.
 
 ### [CSE-101](https://sglbl.github.io/CSE-101)
 Introduction to Computer Science
