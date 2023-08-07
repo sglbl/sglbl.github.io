@@ -19,8 +19,8 @@ Algorithm Design in Python
 ### [CSE-331](https://sglbl.github.io/CSE-331)
 Computer Organization in MIPS Assembly / Verilog
 
-<!-- ### [CSE-312](https://sglbl.github.io/CSE-312)
-Operating Systems -->
+### [CSE-312](https://sglbl.github.io/CSE-312)
+Operating Systems
 
 ### [CSE-344](https://sglbl.github.io/CSE-344)
 System Programming
