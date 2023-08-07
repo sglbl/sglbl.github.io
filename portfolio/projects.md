@@ -22,6 +22,8 @@
 
 ### [Age Prediction](../Age-Prediction)
 
+### [Campus Clubs](../CampusClubs)
+
 ### [Sparkle Symmetric Cryptographic Algorithm](../CSE-470/Project)
 
 ### [Screenshot Saver for Pardus OS](../Cizdirgec_PardusAcikHack)
